@@ -24,6 +24,7 @@ public class BootstrapExample{
 			MethodHandles.Lookup lookup = (MethodHandles.Lookup)args[0];
 			MethodHandle methodHandle = lookup.findStatic(Counter.class, "count", methodType);
 			return new ConstantCallSite(methodHandle);
+			
 		}
 	}
 

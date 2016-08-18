@@ -2,7 +2,6 @@ import java.util.*;
 import java.util.function.*;
 
 public class DynamicInvocation {
-
 	public static void main( String... args ){
 
 		Function< Double, Double > square =  new Function< Double, Double >(){
@@ -19,5 +18,4 @@ public class DynamicInvocation {
 		System.out.println( squareLambda.apply( 5.0 ) );
 
 	}
-
 }
