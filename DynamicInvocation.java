@@ -1,17 +1,15 @@
 import java.util.*;
 import java.util.function.*;
 
-public class InvokeDynamic {
-    
+public class DynamicInvocation {
+
 	public static void main( String... args ){
 
 		Function< Double, Double > square =  new Function< Double, Double >(){
-
 			@Override
 			public Double apply( Double base ){
 				return base*base;
 			}
-
 		};
 
 

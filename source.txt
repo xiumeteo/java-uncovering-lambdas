@@ -1,3 +1,4 @@
+https://www.youtube.com/watch?v=1OpAgZvYXLQ
 http://searchsoa.techtarget.com/definition/Java-virtual-machine
 http://coding-geek.com/jvm-memory-model/
 http://blog.headius.com/2008/09/first-taste-of-invokedynamic.html
@@ -6,4 +7,4 @@ http://docs.oracle.com/javase/7/docs/technotes/guides/vm/multiple-language-suppo
 https://dzone.com/articles/dismantling-invokedynamic
 
  javac -cp byte-buddy-1.4.15.jar:. BootstrapExample.java
- java -cp  byte-buddy-1.4.15.jar:. BootstrapExample     
+ java -cp  byte-buddy-1.4.15.jar:. BootstrapExample
