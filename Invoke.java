@@ -1,5 +1,5 @@
 public class Invoke{
-	
+
 	public interface Test{
 		boolean test(int element);
 	}
@@ -28,8 +28,8 @@ public class Invoke{
 		classReference.test( 3 );
 		classReference.test( 0, 5 );
 
-		Tester.testEquality( 0, 5 );
+		System.out.println(Tester.testEquality( 0, 5 ));
 	}
-	
+
 
 }

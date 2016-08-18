@@ -1,4 +1,4 @@
-compile: 
+compile:
 	javac -cp byte-buddy-1.4.15.jar:. *.java
 
 compileone:
@@ -6,7 +6,6 @@ compileone:
 
 runone:
 	java -cp byte-buddy-1.4.15.jar:. ${NAME}
-	echo "launching..."
 
 showone:
 	javap -v -cp byte-buddy-1.4.15.jar:. ${NAME}
